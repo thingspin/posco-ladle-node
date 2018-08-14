@@ -1,0 +1,12 @@
+{
+    "name": "posco-ladle",
+    "description": "Posco Temperator Process Project",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "posco-temp-flow.json",
+            "credentialsFile": "posco-temp-flow_cred.json"
+        }
+    }
+}
