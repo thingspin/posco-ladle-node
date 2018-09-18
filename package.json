@@ -2,7 +2,11 @@
     "name": "posco-ladle",
     "description": "Posco Temperator Process Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-config": "1.1.2",
+        "node-red-contrib-influxdb": "0.2.1",
+        "node-red-node-mysql": "0.0.17"
+    },
     "node-red": {
         "settings": {
             "flowFile": "posco-temp-flow.json",
